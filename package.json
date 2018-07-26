@@ -1,0 +1,22 @@
+{
+  "name": "slack-parrot",
+  "version": "0.1.2",
+  "description": "Behold the Party Parrot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Luan Orlandi <orlandi.luan@gmail.com> (https://github.com/luanorlandi)",
+  "license": "MIT",
+  "bin": {
+    "slack-parrot": "./index.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
